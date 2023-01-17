@@ -1,0 +1,67 @@
+.app-container {
+  background-color: #152850;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 500px;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 60px;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.songs-playlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.search-input-container {
+  border: 1px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.search-input {
+  background-color: transparent;
+  color: #cbd5e1;
+  font-family: Roboto;
+  padding-left: 10px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+.play-list {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 50px;
+}

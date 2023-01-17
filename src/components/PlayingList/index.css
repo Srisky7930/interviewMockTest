@@ -1,0 +1,53 @@
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+}
+
+.list-items-card {
+  display: flex;
+}
+
+.image {
+  height: 100px;
+}
+
+.genre-card {
+  padding-left: 20px;
+}
+
+.name-music {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.genre {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.duration-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.duration {
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-right: 50px;
+}
+
+.icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.delete {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
